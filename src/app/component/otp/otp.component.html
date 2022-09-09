@@ -1,0 +1,28 @@
+<form [formGroup]="MyOtpForm" >
+
+<div class="container-2">
+
+<div class="formgroup">
+<h1>RESET YOUR PASSWORD</h1><br>
+ <label>OTP VERIFICATION  </label>
+ <div class="container-otp">
+
+ 
+<ngx-otp-input 
+
+ [config]="otpInputConfig"  
+ >
+</ngx-otp-input><br>
+
+<button  (click)="onsubmit()" class="btn btn-primary"   >SUBMIT OTP</button> &nbsp;
+<button   class="btn btn-primary"  [disabled]="MyOtpForm.submit" >RESEND OTP</button> &nbsp;
+
+
+
+
+
+</div>
+</div> 
+
+
+</div></form>

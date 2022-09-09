@@ -1,0 +1,32 @@
+
+@import url('https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css');
+
+input.ng-invalid.ng-touched{
+    border: red 2px solid;
+  }
+  .container-2{
+    border: 2px solid rgb(59, 53, 53);
+  width: 20cm ;
+  height: 10cm;
+  background-color:rgb(240, 246, 250);
+  align-self: center;
+  margin: 100px;
+  padding: 50px;
+   
+  }
+.container-otp{
+  margin: 20px;
+  padding: auto;
+}
+h1{
+  font-size: 30px;  
+  display: inline;
+  transition: color 0.15s ease, background-color 0.15s ease, border-color 0.15s ease ,  box-shadow 0.20 ease ;
+  text-align: center;
+}
+label{
+  font-size: larger;
+}
+
+
+  
